@@ -110,7 +110,7 @@ iOS 7.0 or later
 
 - (void)cardContainerViewDidCompleteAll:(YSLDraggableCardContainer *)container;
 {
-    NSLog(@"++ Did CompleteAll);
+    NSLog(@"++ Did CompleteAll");
 }
 
 - (void)cardContainerView:(YSLDraggableCardContainer *)cardContainerView didSelectAtIndex:(NSInteger)index draggableView:(UIView *)draggableView
